@@ -20,7 +20,7 @@ ___
 * Flickr API key and Flickr secret
 * Google Maps API key
 
-__Add the keys in the file  File/Credenziali
+__Add the keys in the file  File/Credenziali__
 
 
 ---
