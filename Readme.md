@@ -1,5 +1,5 @@
 
-:earth_americas: # POI analysis via Flickr with Python 
+# POI analysis via Flickr with Python :earth_americas:
 ___This project aims to provide a simple and fast code that allows you to obtain the major places of interest in a specific geographic area___
 ___
 ## Description
