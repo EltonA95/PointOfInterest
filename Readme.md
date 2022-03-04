@@ -1,5 +1,5 @@
 
-# POI analysis via Flickr with Python 
+:earth_americas: # POI analysis via Flickr with Python 
 ___This project aims to provide a simple and fast code that allows you to obtain the major places of interest in a specific geographic area___
 ___
 ## Description
@@ -15,7 +15,7 @@ and displayed in Google Maps, it was necessary to make a series of calls to the 
   
 ___
 
-##Requirements
+## Requirements
 
 * Flickr API key and Flickr secret
 * Google Maps API key
@@ -32,7 +32,7 @@ ___
 |_gmapPlot()_|place:[]|
 |flickrPlot()|photo:[]|
 
-##Description
+## Description
 
 * __photoProcessing():__ 
 this method returns two Jsons, one containing all the 
@@ -79,7 +79,7 @@ __Parameters__
                 For each place the number of users who have visited it is specified
 
 ----
-##Example
+## Example
 
 ```
 import Processing.FlickrProcessing as fp
@@ -98,17 +98,17 @@ plt.gmapPlot(gmapPlace)
 plt.flickrPlot(flicrkPlace)
 ```
 
-##Plot results 
+## Plot results 
 
 _The following photo shows the output of the flickrPlot method.
 It shows in Google Maps the n most visited places by Flickr users, 
 with a label indicating the percentage of users who have visited it._
 
-![FlickrPlot](img\FlickrPlot1.jpg)
+![FlickrPlot](img/FlickrPlot1.jpg)
 
 _The following photo shows the output of the gmapPlot method.
 Show in Google Maps the tourist attractions near the places obtained from Flickr_
-![GmapPlot](img\GmapPlot.jpg)
+![GmapPlot](img/GmapPlot.jpg)
 
 ---
 
@@ -120,7 +120,7 @@ __It's possible to obtain the places visited by a single user and show them on t
 |---|---|
 |userPlot()|photo[]|
 
-###Example
+### Example
 
 ```
 import Processing.Plot as plt
@@ -131,7 +131,7 @@ photos = fp.photoProcessing(bbox=bbox,start_year=2019, start_month=6,start_day=1
 plt.userPlot(photos)
 ```
 
-###Plot
+### Plot
 
 ![userPlot](img/UserPlot1.jpg)
 
