@@ -25,7 +25,7 @@ __Add the keys in the file  File/Credenziali__
 
 ---
 
-##Methods
+## Methods
 * __The methods that will be used to obtain the final output are described below__
 
 |__Method__|__Required parameters__|
